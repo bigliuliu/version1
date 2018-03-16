@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarBackgroundColor": "#009be0",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "我",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

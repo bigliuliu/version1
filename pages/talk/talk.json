@@ -1,1 +1,7 @@
-{}
+{
+  "navigationBarBackgroundColor": "#009be0",
+  "navigationBarTextStyle": "white",
+  "navigationBarTitleText": "电圈",
+  "backgroundColor": "#eeeeee",
+  "backgroundTextStyle": "light"
+}

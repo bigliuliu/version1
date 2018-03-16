@@ -1,15 +1,21 @@
 <!--user.wxml-->
+<!--学生登录界面-->
+<!--学号+身份证后六位，只能查到成绩和课表，图书馆密码初始的密码为123456-->
 <view class="container">
-    <!-- 用户登录测试 -->
-    <view class="userinfo" bindtap="login">
-        <image
-            class="userinfo-avatar"
-            src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}"
-            background-size="cover"
-        ></image>
-        <view>
-            <text class="userinfo-nickname">{{logged ? userInfo.nickName : '微信登录'}}</text>
-            <text class="userinfo-nickname" wx:if="{{logged}}">{{userInfo.lastLoginTime}}</text>
-        </view>
-    </view>
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image src="../../images/me/logo.jpg" class="logoimg" />
+    <view class="text">
+  科盐吧
+  </view>
+  </view>
+  <view class='log'>
+  <view class="subview">
+    <input type="number" placeholder="输入11位学号" class="inpsize" style="border:0.5px solid #C9C9C9 "/> </view>
+      <view class="subview">
+     <input type="number" placeholder="输入选课网密码" class="inpsize" style="border:0.5px solid #C9C9C9 "/>
+  </view>
+  <view class="subview">
+    <button class="btn" form-type='submit' bindtap="addToFront" > 登      录</button>
+  </view>
+</view>
 </view>
