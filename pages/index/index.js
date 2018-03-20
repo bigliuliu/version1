@@ -35,11 +35,6 @@ Page({
         text: "图书查询"
       },
       {
-        img: "../../images/main/tianqi.png",
-        openpath: "../../pages/IP/IP",
-        text: "快递服务"
-      },
-      {
         img: "../../images/main/tianqi1.png",
         openpath: "../../pages/figure/figure",
         text: "校历"
@@ -57,7 +52,7 @@ Page({
       {
         img: "../../images/main/yhk.png",
         openpath: "../../pages/game/game",
-        text: "摇骰子"
+        text: "校车服务"
       },
       {
         img: "../../images/main/yhk.png",
@@ -67,7 +62,7 @@ Page({
       {
         img: "../../images/main/wzj.png",
         openpath: "../../pages/2048/2048",
-        text: "2048"
+        text: "奖学金"
       }
     ],
     indicatorDots: true,
