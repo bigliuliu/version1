@@ -58,11 +58,6 @@ Page({
         img: "../../images/main/yhk.png",
         openpath: "../../pages/cand/index",
         text: "程序员黄历"
-      },
-      {
-        img: "../../images/main/wzj.png",
-        openpath: "../../pages/2048/2048",
-        text: "奖学金"
       }
     ],
     indicatorDots: true,

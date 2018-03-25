@@ -9,12 +9,12 @@
   </view>
   </view>
   <view class='log'>
-  <view class="subview">
-    <input type="number" placeholder="输入11位学号" class="inpsize" style="border:0.5px solid #C9C9C9 "/> </view>
-      <view class="subview">
-     <input type="number" placeholder="输入选课网密码" class="inpsize" style="border:0.5px solid #C9C9C9 "/>
+  <view class="user-all">
+    <input type="number" placeholder="输入11位学号" class="user-input" style="border:0.5px solid #C9C9C9 "/> </view>
+      <view class="user-all">
+     <input type="number" placeholder="输入选课网密码" class="user-input" style="border:0.5px solid #C9C9C9 "/>
   </view>
-  <view class="subview">
+  <view class="user-all">
     <button class="btn" form-type='submit' bindtap="addToFront" > 登      录</button>
   </view>
 </view>
