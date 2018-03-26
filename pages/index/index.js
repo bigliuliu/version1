@@ -56,8 +56,8 @@ Page({
       },
       {
         img: "../../images/main/yhk.png",
-        openpath: "../../pages/cand/index",
-        text: "程序员黄历"
+        text: "程序员黄历",
+        openpath:"../../pages/computer/computer"
       }
     ],
     indicatorDots: true,

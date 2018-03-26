@@ -17,6 +17,7 @@ font-size: 25rpx;
 .btn{
   height: 80rpx;
   width:240rpx;
+  font-size: 40rpx;
   color: #787878;
 }
 .user-input{

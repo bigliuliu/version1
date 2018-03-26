@@ -1,0 +1,25 @@
+<view class="table">  
+  <view class="tr">  
+    <view class="th">时间：{{data}}</view>  
+    <view class="th">星期：{{weeks}}</view>  
+  </view>  
+   <view class="tr ">  
+    <view class="th">宜：{{good}}</view>  
+    <view class="th">忌：{{bad}}</view>  
+  </view>  
+  <block wx:for="{{listData}}" wx:key="{{code}}">  
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">  
+      <view class="td-1" selectable="true">{{item.code}}</view>  
+      <view class="td-2" selectable="true" scroll-y="true" >  
+      <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true">{{item.text}}</text>  
+      </view>  
+      <!--view class="td">{{item.type}}</view-->  
+    </view>  
+    <view class="tr bg-g2" wx:else>  
+      <view class="td-1" selectable="true">{{item.code}}</view>  
+      <view class="td-2" selectable="true"  scroll-y="true" >  
+      <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true">{{item.text}}</text>  
+     </view>  
+    </view>  
+  </block>  
+</view>  
